@@ -60,9 +60,6 @@ Entre sus funcionalidades se incluyen:
 │   └── t_bbe.csv
 ├── api.py
 ├── app.py
-├── buscador.py
-├── clasificador.py
-├── visualizacion.py
 └── src/
     ├── book.py
     ├── chapter.py
