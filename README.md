@@ -1,6 +1,6 @@
 # Análisis de Texto Bíblico - Proyecto de Laboratorio de PLN
 
-Un proyecto integral de **Procesamiento de Lenguaje Natural (PLN)** para analizar textos bíblicos (Antiguo y Nuevo Testamento) utilizando Python. Este proyecto abarca las etapas de análisis estadístico, modelado clásico, arquitectura web (API REST) y visualización interactiva, cumpliendo con los requerimientos de los Laboratorios 2 y 3.
+Un proyecto integral de **Procesamiento de Lenguaje Natural (PLN)** para analizar textos bíblicos (Antiguo y Nuevo Testamento) utilizando Python. Este proyecto abarca las etapas de análisis estadístico, modelado clásico, arquitectura web (API REST) y visualización interactiva, cumpliendo con los requerimientos de el Laboratorio 3.
 
 ---
 
@@ -43,7 +43,6 @@ Entre sus funcionalidades se incluyen:
 - Representación vectorial utilizando TF-IDF y Word2Vec.
 - Visualización interactiva 2D y 3D con Plotly.
 - Búsqueda semántica de versículos mediante similitud del coseno.
-- Análisis de sentimientos con VADER.
 - Clasificación automática de versículos mediante Naive Bayes Multinomial.
 - Dashboard con estadísticas dinámicas y filtros en tiempo real.
 
@@ -54,7 +53,6 @@ Entre sus funcionalidades se incluyen:
 ```text
 .
 ├── README.md
-├── UMLLAB2.drawio
 ├── archive/
 │   ├── key_english.csv
 │   └── t_bbe.csv
@@ -92,7 +90,7 @@ Entre sus funcionalidades se incluyen:
 
 ```bash
 git clone <repositorio>
-cd Laboratorio2
+cd Laboratorio3
 ```
 
 ## 2. Crear un entorno virtual
@@ -178,28 +176,6 @@ La interfaz contiene cuatro módulos:
 - Search
 - PCA & Word2Vec
 - Generator
-
----
-
-## Opción B: Línea de comandos
-
-### Clasificación y generación
-
-```bash
-python clasificador.py
-```
-
-### Buscador semántico
-
-```bash
-python buscador.py
-```
-
-### Visualizaciones
-
-```bash
-python visualizacion.py
-```
 
 ---
 
@@ -305,17 +281,6 @@ Contiene la lista de stopwords utilizadas durante el procesamiento.
 
 ---
 
-## CLI
-
-Se generan imágenes como:
-
-- `evolucionsentimientolibros.png`
-- `matrizconfusion_nb2.png`
-- `nube_palabras_*.png`
-
-Además de reportes tabulares en consola.
-
----
 
 # 🔬 Detalles Técnicos
 
